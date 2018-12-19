@@ -1,0 +1,22 @@
+{
+  "name": "todoappback",
+  "version": "1.0.0",
+  "main": "src/loader.js",
+  "repository": "git@github.com:astronomerjean/react-todo-app-backend.git",
+  "author": "<seujeanoliveira@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "prodution": "pm2 start src/loader.js --name todo-app"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.7.0",
+    "node-restful": "0.2.5",
+    "pm2": "2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
